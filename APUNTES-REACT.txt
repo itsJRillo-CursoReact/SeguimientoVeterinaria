@@ -1,0 +1,88 @@
+===========================================================================
+JavaScript Syntax Extension
+
+- Es una extensión del lenguaje, combina HTML y JS en el mismo archivo
+
+Reglas en JSX
+
+- Obligatorio cerrar etiquetas
+- Cada componente debe retornar algo
+
+Ejemplo:
+
+-----------------------------------------------------------------------
+function App() {
+
+  return (
+    // Fragment => <>
+    
+    <>
+    { // {edad >= 18 ? "Eres mayor de edad" : "No eres mayor de edad"}
+    }
+      <div>
+        <h1>{"Hola Mundo".toLowerCase()}</h1>
+        <img src="algo.jpg" />  
+      </div>  
+    </>
+  )
+}
+
+export default App
+-----------------------------------------------------------------------
+
+Para utilizar código JS en el return se debe encerrar el código 
+que queremos que se ejecute entre "{}".
+
+===========================================================================
+
+
+===========================================================================
+
+    React Hooks
+
+    Reglas de los Hooks:
+    - Los Hooks se colocan en la parte superior de tus componentes de React
+    - No se deben colocar dentro de condicionales, tampoc después de un return.
+
+    Hooks => Es una API que nos permite tener el estado 
+    en los componentes de nuestra página
+
+    Categorías de Hooks (más utilizados) => useState,useEffect,useContext
+
+    Cómo importar los Hooks => import {useState, useEffect} from "react";
+
+    useState => En que se encuentra nuestra aplicación.
+
+    useEffect => Es un callback que se llama cuando un State cambia 
+    o cuando el componente está listo
+
+
+
+
+===========================================================================
+
+
+===========================================================================
+
+    Eventos en React
+
+    - Se comporta como los eventos en JS
+    - camelCase
+
+===========================================================================
+
+===========================================================================
+
+    Props en React
+
+    Forma de pasar States o propiedades a otros componentes. 
+    Ayuda a evitar el duplicado de código
+
+    - De Padre a Hijo
+
+    Sintaxis:
+      <Header 
+          nombreProp = {datos o Funciones}
+      />
+
+===========================================================================
