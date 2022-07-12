@@ -3,4 +3,4 @@ Web desarrollada con React en la que puedes gestionar a los pacientes de una vet
 
 ## Deployment de la página
 
-- [Seguimiento Veterinaria](https://seguimientoveterinaria.netlify.app) usando Netlify.
+- [Seguimiento Veterinaria](https://seguimientoveterinaria.netlify.app){:target="_blank"} usando Netlify.
